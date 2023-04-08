@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="h-primary">
+            <a href="/"><i class="fa-solid fa-list-check"></i> To Do List</a>
+        </h1>
+        <img src="./static/images/img1.png" alt="">
+    </header>
+    <section class="home">
+        <div class="home-container">
+            <div class="adding-task-container">
+                <div class="my-task">
+                    <input type="text" id="myTask" name="myTask" placeholder="Enter you task" required />
+
+                    <input type="date" id="mydate" name="mydate" required />
+
+                    <input type="time" id="myTime" name="myTime" required />
+                </div>
+                <div class="add-task">
+                    <button class="add-task-btn">Add</button>
+                </div>
+            </div>
+
+            <!-- <ul id="all-tasks"> 
+                <li id="first">
+                 <p>completed</p>
+                    <input type="checkbox" name="TaskCompleted" id="TaskCompleted" />
+                </li>
+
+                <li id="second">
+                    <p id="task-para">Lorem ipsum dolor sit amet consectetur, adipisicing  </p>
+                </li>
+
+                <li id="third">
+                    <p id="date">01 Nov</p>
+                    <p id="time">11:20 PM</p>
+                </li>
+                <li id="fourth">
+                   <button id="edit">Edit <i class="fa-solid fa-pen-to-square"></i></button>
+                    
+                </li>
+                <li id="fifth">
+                    <button id="remove">Remove <i class="fa-sharp fa-solid fa-trash"></i></button>       
+                </li>
+            </ul>  -->
+
+        </div>
+    </section>
+</body>
+<script src="./app.js"></script>
+
+</html
